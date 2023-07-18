@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Konkhmer+Sleokchher&family=Poppins&family=Secular+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.skip {
+  position: absolute;
+  top: -200px;
+  left: 15rem;
+  padding: 8px;
+  background-color: #c70039;
+  color: white;
+  z-index: 9999;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+head-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  min-height: 50px;
+  border-bottom: 2px solid #f0f0f0;
+  background-color: #fdfaf6e1;
+}
+
+.logo {
+  font-family: "Konkhmer Sleokchher", cursive;
+  font-weight: 600;
+  font-size: 12px;
+  color: #161616;
+  margin: 0 5%;
+}
+
+span {
+  color: #c70039;
+}
+
+.navbar {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 15px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #20262e;
+}
+
+head-section button {
+  margin: 0 5%;
+  font-size: 1.5rem;
+}
+
+head-section button > span {
+  color: #161616;
+}
+
+.active a {
+  color: #fff;
+}
+
+.countainer-hero {
+  width: 100%;
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 380px;
+  background-image: url("../public/images/heros/hero-image_2-large.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-family: "Secular One", sans-serif;
+}
+
+.hero h1 {
+  width: 70%;
+  font-weight: 600;
+  background-color: rgba(110, 104, 104, 0.534);
+  border-radius: 12px 12px 0 0;
+}
+
+.hero p {
+  background-color: rgba(110, 104, 104, 0.534);
+  border-radius: 0 0 12px 12px;
+}
+
+main {
+  display: flex;
+  min-height: 650px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search {
+  background-color: #64c9cf;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.search-wrapp {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c70039;
+  border-radius: 20px;
+  position: relative;
+  bottom: 6rem;
+  font-family: "Konkhmer Sleokchher", cursive;
+}
+
+.search-wrapp h1 {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+  position: relative;
+}
+
+.input {
+  width: 90%;
+  padding: 18px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.input:focus {
+  outline: 2px solid #161616;
+}
+
+.btn-cari {
+  background-color: #07a16e;
+  border-radius: 25px;
+  width: 200px;
+  padding: 18px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-cari:focus {
+  background-color: #4fffc4;
+  outline: 2px solid #03c988;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: "poopins", sans-serif;
+}
+
+.conten_heading {
+  text-align: center;
+}
+
+.resto-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 210px;
+  transition: 0.3s;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #f0f0f0;
+  border-radius: 15px;
+}
+
+.label img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+}
+
+.label h1 {
+  position: relative;
+  text-align: center;
+  bottom: 10rem;
+  border-radius: 0 18px 18px 0;
+  background-color: #c70039;
+  color: #fff;
+  padding: 8px;
+  width: 30%;
+  font-size: 12px;
+}
+
+.label figcaption {
+  position: relative;
+  width: 100%;
+  bottom: 2rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 5px;
+  color: rgb(250, 215, 19);
+}
+
+.desc {
+  width: 90%;
+  position: relative;
+  bottom: 1.5rem;
+  left: 5%;
+  overflow: scroll;
+}
+
+.desc::-webkit-scrollbar {
+  display: none;
+}
+
+.desc h2 {
+  position: sticky;
+  top: 0;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+
+.desc h2 a {
+  text-decoration: none;
+  color: #161616;
+  text-align: left;
+  padding: 10px;
+}

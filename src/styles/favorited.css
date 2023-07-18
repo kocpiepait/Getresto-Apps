@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Konkhmer+Sleokchher&family=Poppins&family=Secular+One&display=swap");
+
+.heading-page {
+  background-color: #64c9cf;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 0;
+  font-family: "poopins", sans-serif;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
